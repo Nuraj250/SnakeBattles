@@ -1,4 +1,4 @@
-# 🐍 SnakeBattles-AI
+# 🐍 SnakeBattles
 
 An exciting **real-time multiplayer Snake Game** with **AI-powered features**:
 - Multiplayer via **WebSocket**

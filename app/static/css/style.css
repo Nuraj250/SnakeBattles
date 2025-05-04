@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Glass Card */
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background: #00f2fe;
+    background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+    border: none;
+    border-radius: 50px;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 2px #00f2fe;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 4px #00f2fe;
+}
+
+/* Input */
+input {
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+}
+
+/* Chatbox */
+#chat-box {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    height: 150px;
+    overflow-y: scroll;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Canvas */
+canvas {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #00f2fe;
+    border-radius: 15px;
+    margin-top: 20px;
+}

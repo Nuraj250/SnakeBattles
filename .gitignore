@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+
+# Database files
+*.sqlite3
+database/*.sqlite3
+
+# Hugging Face model caches (if used locally)
+huggingface/
+transformers_cache/
+
+# Static Generated Assets
+app/static/images/skins/
+app/static/images/avatars/
+app/static/audio/
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.swp
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Testing cache
+.pytest_cache/
+coverage/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node_modules if frontend grows
+node_modules/

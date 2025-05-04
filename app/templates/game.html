@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}SnakeBattles Game{% endblock %}
+
+{% block body %}
+<canvas id="gameCanvas" width="600" height="600"></canvas>
+
+<script src="{{ url_for('static', filename='js/game.js') }}"></script>
+{% endblock %}
